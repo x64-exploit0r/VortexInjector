@@ -1,0 +1,3 @@
+﻿  Injector.cpp
+E:\Starting_C\DllInjector\Injector.cpp(23,3): warning C4551: function call missing argument list
+  DllInjector.vcxproj -> E:\Starting_C\DllInjector\x64\Debug\DllInjector.exe
