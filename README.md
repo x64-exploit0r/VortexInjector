@@ -7,6 +7,7 @@
 ---
 
 ### 📝 To Do:
+- [ ] **Sexy Banner**
 - [ ] **Purple Theme for console**
 - [ ] **Input PID and DLL PATH**
 - [ ] **As Good Looking as Possible**
