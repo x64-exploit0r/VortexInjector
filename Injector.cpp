@@ -11,12 +11,7 @@ int main(int argc, char* argv[]) {
 	wchar_t DLLPATH[MAX_PATH] = L"";
 	size_t DLLSIZE = sizeof(DLLPATH);
 
-	SYSTEM_INFO sysInfo;
-	GetSystemInfo(&sysInfo);
 
-
-	cout << "PROCESSOR TYPE: " << sysInfo.dwProcessorType << endl;
-	cout << "NUMBER OF PROCESSOR: " << sysInfo.dwNumberOfProcessors << endl;
 	HWND FindWindow = FindWindowA(NULL, ("brave.exe"));
 	GetWindowThreadProcessId(FindWindow, &PID);
 	cout << "PID of NotePad.exe: " << PID << endl;
