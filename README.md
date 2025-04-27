@@ -5,7 +5,7 @@
 
 
 To Do:
-1. Purple Theme for console
-2. Input PID and DLL PATH
-3. As Good Looking as Posible
-4. making it best CLI Injector 
+1. Purple Theme for console❌
+2. Input PID and DLL PATH❌
+3. As Good Looking as Posible❌
+4. making it best CLI Injector ❌
