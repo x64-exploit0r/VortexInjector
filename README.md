@@ -1,4 +1,8 @@
 # 💉 Vortex Injector
+
+**Screenshot 1**
+![Screenshot 2025-04-28 184724](https://github.com/user-attachments/assets/2acd5236-45bc-4d04-9c03-246d141ce9cf)
+
 ## An Open Source DLL Injector
 
 ### 🚧 This Project Is Under Development
@@ -14,14 +18,8 @@
 - [ ] **Making it the Best CLI Injector**
 
 ---
-
-### 📅 Updates
-Stay tuned for updates as we work towards making this project functional and user-friendly!
-
-**Screenshot 1**
-![Screenshot 2025-04-28 184724](https://github.com/user-attachments/assets/2acd5236-45bc-4d04-9c03-246d141ce9cf)
-
 ### HOW IT WORKS
 https://github.com/user-attachments/assets/ce9f1148-7578-45a8-a6fa-cdb46321a373
 
-
+### 📅 Updates
+Stay tuned for updates as we work towards making this project functional and user-friendly!
