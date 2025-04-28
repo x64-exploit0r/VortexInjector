@@ -12,7 +12,7 @@
 
 ### 📝 To Do:
 - [x] **Sexy Banner**  <!-- Marked as complete -->
-- [ ] **Purple Theme for console**
+- [x] **Purple Theme for console**
 - [ ] **Input PID and DLL PATH**
 - [ ] **As Good Looking as Possible**
 - [ ] **Making it the Best CLI Injector**
