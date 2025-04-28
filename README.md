@@ -1,4 +1,4 @@
-# 💉 Vortex Injecter
+# 💉 Vortex Injector
 ## An Open Source DLL Injector
 
 ### 🚧 This Project Is Under Development
