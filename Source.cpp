@@ -8,7 +8,7 @@ using namespace std;
 
 int main(int argc, char* argv[]) {
 
-	DWORD PID = 20952;
+	DWORD PID = NULL;
 	DWORD TID = NULL;
 
 	char banner[] = BLUE" ==========================[ Being Developed by x64_exploit0r(Discord) ]==========================    ";
@@ -19,10 +19,13 @@ int main(int argc, char* argv[]) {
    \ \ /  (   |  |     |     __/  `  <        |   |   |  |   __/  (     |    (   |  |    
     \_/  \___/  _|    \__| \___|  _/\_\     ___| _|  _|  | \___| \___| \__| \___/  _|    
                                                      ___/                                )" << endl;
+	if (argv[1] == NULL) {
+		cout << "[!] Usage: VortexInjector.exe  ProcessName" << endl;
+		return EXIT_FAILURE;
+	}
 
-
-
-	SetConsoleTitleW(L"Vortex Injector");
+	HWND FindWin = FindWindowA(argv[1], NULL);
+	GetWindowThreadProcessId(FindWin, &PID);
 
 	wchar_t DLLPATH[MAX_PATH] = L"E:\\Starting_C\\VortexInjector\\x64\\Debug\\SampleDll.dll";
 	size_t DLLSIZE = sizeof(DLLPATH);
