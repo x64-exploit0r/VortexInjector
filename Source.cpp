@@ -19,6 +19,8 @@ int main(int argc, char* argv[]) {
    \ \ /  (   |  |     |     __/  `  <        |   |   |  |   __/  (     |    (   |  |    
     \_/  \___/  _|    \__| \___|  _/\_\     ___| _|  _|  | \___| \___| \__| \___/  _|    
                                                      ___/                                )" << endl;
+	cout << "[*] The Best CLI Injector For Games like CS2" << endl;
+	cout << "[*] Remember to Use x86 Dll for 32Bit Process And x64 Dll for 64Bit Process" << endl;
 	if (argv[1] == NULL) {
 		cout << "[!] Usage: VortexInjector.exe  ProcessName" << endl;
 		return EXIT_FAILURE;
@@ -35,6 +37,7 @@ int main(int argc, char* argv[]) {
 	HANDLE hProcess = OpenProcess(PROCESS_ALL_ACCESS, FALSE, PID);
 	if (!hProcess) {
 		cout << "[!] UNABLE TO GET HANDLE TO PROCESS ERROR CODE: " << GetLastError() << " WITH PID: " << PID << endl;
+		CloseHandle(hProcess);
 		return EXIT_FAILURE;
 	}
 	cout << "[+] HANDLE TO PROCESS: " << hProcess << endl;
@@ -63,6 +66,8 @@ int main(int argc, char* argv[]) {
 	HANDLE hThread = CreateRemoteThreadEx(hProcess, NULL, NULL, StartThread, AllocatedMemory, NULL, NULL, &TID);
 	if (!hThread) {
 		cout << "[!] UNABLE TO CREATE REMOTE THREAD ERROR CODE: " << GetLastError() << endl;
+		CloseHandle(hThread);
+		CloseHandle(hProcess);
 		return EXIT_FAILURE;
 	}
 	cout << "[+] HANDLE TO REMOTE THREAD: " << hThread << endl;
