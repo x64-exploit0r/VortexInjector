@@ -23,11 +23,13 @@ https://github.com/user-attachments/assets/ce9f1148-7578-45a8-a6fa-cdb46321a373
 
 ### INSTALLATION
 ```bash
-// Clone Vortex Injector
+# Clone Vortex Injector
 git clone https://github.com/x64-exploit0r/VortexInjector.git
-// Move to The Directory where executable is stored
+
+# Move to The Directory where executable is stored
 cd x64/debug/
-// Run The Executable with the ProcessName in which you want to Inject DLL
+
+# Run The Executable with the ProcessName in which you want to Inject DLL
 VortexInjector.exe  ProcessName
 ```
 
