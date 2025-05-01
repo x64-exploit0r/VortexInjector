@@ -24,7 +24,9 @@ https://github.com/user-attachments/assets/ce9f1148-7578-45a8-a6fa-cdb46321a373
 
 ### INSTALLATION
 `git clone https://github.com/x64-exploit0r/VortexInjector.git`
+
 `cd x64/debug/`
+
 `VortexInjector.exe  ProcessName`
 
 
