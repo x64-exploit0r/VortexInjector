@@ -14,8 +14,8 @@
 - [x] **Sexy Banner**  <!-- Marked as complete -->
 - [x] **Purple Theme for console**
 - [ ] **Input PID and DLL PATH**
-- [ ] **As Good Looking as Possible**
-- [ ] **Making it the Best CLI Injector**
+- [x] **As Good Looking as Possible**
+- [x] **Making it the Best CLI Injector**
 
 ---
 ### HOW IT WORKS
